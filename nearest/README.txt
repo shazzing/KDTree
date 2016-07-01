@@ -1,3 +1,5 @@
+Purpose:  Solve the nearest neigbour with a templatized K dimensional KDTree representing the spatial vector point. Use the KDTree to run nearest neigbour algorithm.r
+
 This package consists of the following files and directory:
 
 compileAndRun.sh
