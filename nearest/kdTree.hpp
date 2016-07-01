@@ -370,6 +370,7 @@ void KDTree<valType, dim>::loadKDTreeFromFile(string fileName){
     
 }
 
+/*
 template<typename valType, size_t dim>
 point<valType, dim>* KDTree<valType, dim>::getBetterNeigbour(const point<valType, dim>& pt, KDNode<valType, dim>* startingNode,  const point<valType, dim>& nearestNbr)
 {
@@ -380,15 +381,16 @@ point<valType, dim>* KDTree<valType, dim>::getBetterNeigbour(const point<valType
         KDNode<valType, dim>* currNode = currStk.top();
         currStk.pop();
         if(!currNode)
-            continue;
+            
         if(currNode->indexAxis == -1){
             return currNode->nodePoint;
         }
         bool wasChildLeft = abs(pt.at(currNode->splittingHyperAxis) - currNode->splittingValue) < hyperSphereRad ? false : true;
-        currStk.push(wasChildLeft ? )
+        
     }
     return nullptr;
     
 }
+*/
 
 #endif /* KdTree_h */

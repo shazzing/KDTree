@@ -9,7 +9,7 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
-#include "KdTree.hpp"
+#include "kdTree.hpp"
 #include "KDNode.hpp"
 using namespace std;
 
