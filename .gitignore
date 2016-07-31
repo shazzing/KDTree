@@ -1,0 +1,11 @@
+#xcode proj files
+*/*.xcodeproj/*
+*/*.pbxproj
+*.xcworkspace/*
+xcuserdata/*
+*/*.plist/*
+
+#DS_store
+.DS_Store/*
+
+
