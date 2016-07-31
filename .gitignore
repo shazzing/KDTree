@@ -1,11 +1,20 @@
 #xcode proj files
-*/*.xcodeproj/*
+*/*.xcodeproj/**
 */*.pbxproj
-*.xcworkspace/*
-xcuserdata/*
-*/*.plist/*
+*.xcworkspace/**
+xcuserdata/**
+*/*.plist/**
 
 #DS_store
-.DS_Store/*
+.DS_Store/**
+
+#bin files as well
+*.o
+*.exe
+*.sln
+
+#directories with bin and lib as well
+bin/**
+
 
 
